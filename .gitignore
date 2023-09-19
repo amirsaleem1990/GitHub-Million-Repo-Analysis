@@ -1,0 +1,6 @@
+pickle_files/
+.ipynb_checkpoints/
+all-github-repos-data-combined.pkl.zip                   
+all-github-repos-data-combined-without-duplicates.pkl.zip
+.env
+
