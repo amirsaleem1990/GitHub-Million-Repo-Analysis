@@ -1,9 +1,9 @@
 # GitHub-Million-Repo-Analysis
 
-It appears that you have built a Python project for fetching and analyzing GitHub repository metadata using the GitHub Search API. Let's break down your project into its main components:
+A Python project for fetching and analyzing GitHub repository metadata using the GitHub Search API. Let's break down it into its main components:
 
 ### _Fetching Script (.fetch-github-repos-data.py)_:
-- A Python script responsible for fetching GitHub repository metadata. This script uses the GitHub Search API to  retrieve information about the last one million repositories created. The fetched data is analyzed later in another script.
+- A Python script responsible for fetching GitHub repository metadata. This script uses the GitHub Search API to retrieve information about the last one million repositories created. The fetched data is analyzed later in another script.
 - The script takes into account rate limiting by handling HTTP status codes like 403 (maximum login attempts exceeded) and - 422 (when you already fetched 1000 items).
 - It fetches data for different time periods, divided into hourly intervals, and saves the results in pickle files.
 
